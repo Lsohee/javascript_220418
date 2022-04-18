@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="root"></div>
+  <script>
+
+    const root = document.querySelector("#root");
+
+    console.log(root); //console 에 기록해줘
+    console.dir(root); // root의 디렉토리를 보여줘
+
+    let back = 100;
+    // ? 변수를 초기화 했다 (initial) / 변수를 선언했다 / 초기설정했다
+    
+    
+    root.style.width = back + 'vw';
+    // 할당(a)
+    // 구조를 들여다보니 styel이라는 어떤 속성에 width 값이 있더라
+    root.style.height = back + 'vh';
+    root.style.backgroundColor = '#ccc';
+    // 내가 하는 것보다 브라우저가 하는일이 많아짐
+    // 작성을 했다면 반드시 console.log를 확인한다 : 한줄, 한개 
+  </script>
+</body>
+</html>
